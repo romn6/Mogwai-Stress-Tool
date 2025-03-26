@@ -1,3 +1,17 @@
+/*
+    Stress.c will be considered as the main.c file for this code. Currently any changes to code, might need to update as main as well.
+    Inside of stress.c is where we will be calling the stress code, when the user compiles any of the other code. CLI, but being that 
+    we want to keep this as user friendly as possible, maybe later down the line a GUI can be created.
+
+    But... WELCOME TO MOGWAI STRESSER the C version!!!! xD
+
+    This project aims to create a stress tool that is light weight, its main usage will be throuhg command line, where a user selects the kind of stress
+    and it runs. This inital commit was me simply adding the files to the repo, so you might see files that are still empty or commented out, as development
+    runs. Hopefully this serves as a different approach in terms of stressing your machine, and see test its resillience. More to come <3! 
+
+    Main developer: Me (romn6) <3
+    
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/resource.h>
