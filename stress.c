@@ -42,7 +42,7 @@ int main (int argc, char *argv[]) {
     printf("Option 6 :Stress you later xD\n\n");
 
     int choice;
-    printf("-->");
+    printf("-->\n");
     if(scanf("%d", &choice) != 1){
         printf("First time aint it...\n");
         return -1;
@@ -52,6 +52,7 @@ int main (int argc, char *argv[]) {
         case 1:
             printf("\nOption 1: Kill your CPU\t\t");
             printf("\n");
+            kill_cpu();
             break;
         case 2:
             printf("Option 2: Kill your RAM\n\n");
